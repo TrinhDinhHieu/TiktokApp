@@ -1,0 +1,23 @@
+{
+    "plugins": [
+      ["module-resolver", {
+        // "root": ["./src"],
+        "alias": {
+            "~" : "/src" // dùng ~ là tự cd đến /src
+        //   "test": "./test",
+        //   "underscore": "lodash"
+        }
+      }]
+    ]
+  }
+  
+//   // Use this:
+// import MyUtilFn from 'utils/MyUtilFn';
+// // Instead of that:
+// import MyUtilFn from '../../../../utils/MyUtilFn';
+
+// // And it also work with require calls
+// // Use this:
+// const MyUtilFn = require('utils/MyUtilFn');
+// // Instead of that:
+// const MyUtilFn = require('../../../../utils/MyUtilFn');
