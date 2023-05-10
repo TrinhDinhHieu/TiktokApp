@@ -5,15 +5,23 @@
 *, *::after, *::before{
     margin: 0;
     padding: 0;
-    border: 0;
+    // border: 0;
     box-sizing: border-box;
 }
 :root{
-    --premary: #fe2c55;
+    --primary: #fe2c55;
+    --black: #000;
+    --white: #fff;
+    --default-layout-header-height : 60px;
+    --default-layout-header-width: 1150px;
+
+    --black : #000000cc;
+    --text-color : #333;
 
 }
 html{
 font-size: 62.5%;
+
 }
 
 body {
@@ -21,5 +29,5 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizespeed;
-    text-rendering: optimizeSpeed;
+   
 }
