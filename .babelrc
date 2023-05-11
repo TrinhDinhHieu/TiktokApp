@@ -3,7 +3,7 @@
       ["module-resolver", {
         // "root": ["./src"],
         "alias": {
-            "~" : "/src" // dùng ~ là tự cd đến /src
+            // "~" : "/src" // dùng ~ là tự cd đến /src
         //   "test": "./test",
         //   "underscore": "lodash"
         }
