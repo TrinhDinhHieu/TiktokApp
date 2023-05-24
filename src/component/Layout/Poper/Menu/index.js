@@ -35,8 +35,9 @@ function Menu({ children, items = [], onChange = defaultFn }) {
   };
   return (
     <Tippy
+    // visible
       delay={[0, 700]} //[show, hide]
-      offset={[12, 8]} // căn chiều ngang, cao
+      offset={[12, 10]} // căn chiều ngang, cao
       interactive
       placement="bottom-end"
       render={(attrs) => (

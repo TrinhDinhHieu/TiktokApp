@@ -1,0 +1,87 @@
+//Following
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    flex-wrap: wrap;
+    // width: 740px;
+    height: 100%;
+    padding-left: 70px;
+}
+
+
+
+
+
+
+
+//Follow 
+.content{
+    height: 302px;
+    width: 226px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border-radius: 8px;
+    
+}
+.account-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 8px;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.avatar {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover; // tràn ảnh
+    padding: 8px;
+}
+
+.item-info {
+    flex: 1;
+    margin-left: 12px;
+    padding: 8px;
+}
+
+.nickname {
+    margin-top: 0;
+    font-size: 1.6rem;
+    color: #161823;
+    line-height: 1;
+    padding: 2px;
+   
+}
+
+.check {
+    margin-left: 4px;
+    font-size: 1.4rem;
+    color: #20d5ec;
+}
+
+.name {
+    font-size: 1.2rem;
+    opacity: #161823bf;
+    padding: 2px;
+  
+}
+.btn-follow{
+    display: flex;
+    height: 37px;
+    width: 164px;
+    font-size: 1.8rem;
+    color: white;
+    background-color: #FE2C55;
+    padding: 6px 8px;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+}

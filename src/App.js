@@ -28,6 +28,33 @@ function App() {
               />
             );
           })}
+          {/* <Route
+            path={routesConfig.home}
+            element={
+              <DefaultLayout>
+                <Home />
+              </DefaultLayout>
+            }
+          />
+          <Route
+            path={routesConfig.following}
+            element={
+              <DefaultLayout>
+                <Following />
+              </DefaultLayout>
+            }
+          />
+          <Route path={routesConfig.upload} element={<Upload />} />
+          <Route path={routesConfig.search} element={<Search />} />
+          <Route
+            exact
+            path={routesConfig.profile}
+            element={
+              <DefaultLayout>
+                <Profile />
+              </DefaultLayout>
+            }
+          /> */}
         </Routes>
       </div>
     </Router>

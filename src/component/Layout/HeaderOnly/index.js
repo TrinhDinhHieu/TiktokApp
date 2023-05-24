@@ -5,7 +5,9 @@ export default function HeaderOnly({children}) {
         <div>
            <Header />
             <div className="container">
-                <div className="content">{children}</div>
+                <div className="content">{children}
+                <h1>Header Only</h1>
+                </div>
             </div>
         </div>
      );

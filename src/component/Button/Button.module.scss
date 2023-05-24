@@ -1,7 +1,7 @@
 .wrapper {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  // justify-content: center;
   font-size: 1.6rem;
   font-weight: 700;
   min-width: 100px;
@@ -12,9 +12,10 @@
   background-color: var(--white);
   user-select: none;
   font-family: 'ProximaNova', sans-serif;
+  
   + .wrapper {
     // các nút cạnh nhau sẽ cách nhau
-    margin-left: 14px;
+    // margin-left: 14px;
   }
   &.disabled {
     pointer-events: none;

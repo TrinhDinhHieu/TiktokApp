@@ -1,0 +1,109 @@
+//Home
+
+
+
+
+//HomeItems
+.wrapper{
+    display: flex;
+    height: 672px;
+    width: 592px;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.account-item{
+    display: flex;
+    justify-content: space-between;
+    width: 524px;
+    
+}
+.avatar{
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+}
+.item-info {
+    flex: 1;
+    margin-left: 12px;
+   
+}
+
+.nickname {
+    margin-top: 0;
+    font-size: 1.6rem;
+    color: #161823;
+    line-height: 1;
+    
+   
+}
+.item-info{
+    display: flex;
+}
+.check {
+    margin-left: 4px;
+    font-size: 1.4rem;
+    color: #20d5ec;
+}
+
+.name {
+    font-size: 1.2rem;
+    opacity: #161823bf;
+    
+  
+}
+.btn-follow{
+    width: 88px;
+    height: 28px;
+    color: var( --primary);
+    border: 0.5px solid  var( --primary);
+}
+
+//video
+.container{
+    display: flex;
+}
+.video{
+    height: 499px;
+    width: 288px;
+    background-color: #20d5ec;
+    margin: 20px 10px;
+    border-radius:7px ;
+    object-fit: cover;
+}
+.item-container{
+    display: block;
+    height: 31.6rem;
+    width: 4.8rem;
+    align-self: flex-end;
+    
+}
+.heart-icon{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+   color: rgb(133, 133, 133);
+}
+ul{
+    list-style: none;
+}
+.heart-icon{
+    cursor: pointer;
+}
+.icon{
+    color: black;
+    font-size: 20px;
+}
+.red{
+    color: red;
+    font-size: 20px;
+}
+.black{
+    color: black;
+    font-size: 20px;
+}

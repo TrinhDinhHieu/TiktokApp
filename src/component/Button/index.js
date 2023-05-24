@@ -5,6 +5,7 @@ const cx = classNames.bind(styles);
 
 function Button({
   to, //tới đâu
+  state,
   href,
   disabled,
   rounded = false,
@@ -19,16 +20,21 @@ function Button({
   leftIcon,
   rightIcon,
   onClick,
+  form,
+  type,
   ...passProps
 }) {
   let Comp = "button";
   const props = {
     onClick,
+    type,
+    form,
     ...passProps
   };
   //custom lạo thẻ button khi dùng đến
   if (to) {
     props.to = to;
+    props.state = state;
     Comp = Link;
   } else if (href) {
     props.href = href;
